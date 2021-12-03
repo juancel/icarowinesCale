@@ -1,0 +1,31 @@
+$verdeAgua: #415d61;
+$coral: #dc785e;
+$blanco:#edece8;
+$grisClaro:#edece8b9;
+
+
+.header {
+    background-image: url(../imagenes/icaro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+
+}
+
+header {
+    p {
+        background-color:$grisClaro;
+        border-style: double;
+        text-align: center;
+    }
+    ul {
+        li {
+            text-align: center;
+            display: inline-block;
+            a {
+                color:$blanco;
+            }
+        }
+    }
+}

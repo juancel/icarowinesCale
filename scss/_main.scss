@@ -1,0 +1,28 @@
+$verdeAgua: #415d61;
+$coral: #dc785e;
+$blanco:#edece8;
+$grisClaro:#edece8b9;
+
+
+
+.sectionBienvenida__h1 {
+    margin-top: 40px;
+    color:$blanco;
+    text-align: justify;
+    font-size: 6em;
+
+    span {
+        color: #dc785e;
+    }
+}
+
+.sectionBienvenida__h2 {
+    text-align: justify;
+    letter-spacing: 0.05em;
+}
+
+.promosMes {
+    span {
+        color: $coral;
+    }
+}
