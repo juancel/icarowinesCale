@@ -3,6 +3,7 @@
 @import "header";
 @import "main";
 
+/***** Paleta de Colores *****/
 $verdeAgua: #415d61;
 $coral: #dc785e;
 $blanco:#edece8;
@@ -108,11 +109,6 @@ nav {
     }
 }
 
-li ul li {
-    display: block;
-    text-align: left;
-}
-
 article {
     display: flex;
     flex-direction: column;
@@ -131,13 +127,17 @@ article {
     background-color: #817c76;
 }
 
-.destacados h2 {
-    text-transform: uppercase;
-    font-size: 2em;
+.destacados {
+    h2 {
+        text-transform: uppercase;
+        font-size: 2em;
+    }
 }
 
-.destacados span {
-    color: $coral;
+.destacados {
+    span {
+        color: $coral;
+    }
 }
 
 .aside {
@@ -171,14 +171,19 @@ article {
     width: 12.5%;
 }
 
-.buscador form input {
-    font-style: oblique;
+.buscador {
+    form {
+        input {
+            font-style: oblique;
+        }
+    }
 }
 
-#carrusel img {
-    height: 50%;
-    width: 50%;
-
+#carrusel {
+    img {
+        height: 50%;
+        width: 50%;
+    }
 }
 
 .promosMes {
@@ -211,18 +216,21 @@ nav {
 
 }
 
-.registro li {
-    margin: 2px;
-    border-right: #dc785e solid thin;
-    padding-right: 0.9em;
-    padding-left: 0.9em;
-    color: #edece8;
-
+.registro {
+    li {
+        margin: 2px;
+        border-right: #dc785e solid thin;
+        padding-right: 0.9em;
+        padding-left: 0.9em;
+        color: #edece8;
+    }
 }
 
-.registro li:hover {
-    color: #dc785e;
-    cursor: pointer;
+.registro {
+    li:hover {
+        color: #dc785e;
+        cursor: pointer;
+    }
 }
 
 .mainCombos {
@@ -232,7 +240,6 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .flexFooter {

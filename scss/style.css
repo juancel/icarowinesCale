@@ -134,6 +134,7 @@ header ul li a {
   color: #dc785e;
 }
 
+/***** Paleta de Colores *****/
 /***** Reseteo *****/
 * {
   margin: 0;
@@ -228,11 +229,6 @@ h2 {
 
 nav ul li a:hover {
   color: #dc785e;
-}
-
-li ul li {
-  display: block;
-  text-align: left;
 }
 
 article {
