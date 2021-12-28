@@ -16,6 +16,11 @@ html {
   font-size: 3em;
 }
 
+.aside {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 #footer {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -75,42 +80,6 @@ footer ul i {
   color: #415d61;
 }
 
-.btn--whatsapp {
-  background-color: #5dd15d;
-  height: 200px;
-  width: 300px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.btn--twitter {
-  background-color: #00e1ff;
-  height: 200px;
-  width: 300px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.btn--facebook {
-  background-color: blue;
-  height: 200px;
-  width: 300px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
 .header {
   background-image: url(../imagenes/icaro.jpeg);
   background-size: contain;
@@ -154,9 +123,48 @@ header ul li a {
   color: #dc785e;
 }
 
+.destacados {
+  height: 10rem;
+  width: 100%;
+  color: #edece8;
+  border-style: solid;
+  border-color: #dc785e;
+  border-width: 0.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.destacados ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.destacados ul li {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.destacados h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+}
+
+.destacados span {
+  color: #dc785e;
+}
+
 /***** Estilos por tipo de elemento *****/
 body {
-  margin: 5px;
+  margin: 0.5rem;
   background-color: #415d61;
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -255,25 +263,6 @@ article {
   display: inline-block;
 }
 
-.destacados {
-  color: #9cb4b3;
-  background-color: #817c76;
-}
-
-.destacados h2 {
-  text-transform: uppercase;
-  font-size: 2em;
-}
-
-.destacados span {
-  color: #dc785e;
-}
-
-.aside {
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .novedades {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -282,11 +271,6 @@ article {
 
 .bodegas {
   list-style-type: none;
-}
-
-.logoRedes {
-  width: 20px;
-  height: 20px;
 }
 
 .listStyleType {
@@ -316,7 +300,7 @@ article {
   font-size: 4em;
   font-weight: 900;
   line-height: 200%;
-  letter-spacing: 5px;
+  letter-spacing: 0.5rem;
   color: #edece8;
   text-shadow: 2px 2px 5px #f5f0f1;
 }
@@ -433,13 +417,13 @@ nav {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 5fr 5fr 5fr;
       grid-template-rows: 1fr 5fr 5fr 5fr;
-  grid-row-gap: 20px;
+  grid-row-gap: 2rem;
 }
 
 .clientes {
   border-style: solid;
   border-color: #fff;
-  border-width: 1px;
+  border-width: 0.1rem;
 }
 
 #video2 {

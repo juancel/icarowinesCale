@@ -46,18 +46,3 @@ footer {
         }
     }
 }
-
-@each $red,
-$color in $redes {
-    .btn--#{$red} {
-        background-color: $color;
-        height: 200px;
-        width: 300px;
-        border: 2px solid #333;
-        text-align: center;
-        font-size: 50px;
-        line-height: 200px;
-        color: #fff;
-        text-transform: uppercase;
-    }
-}

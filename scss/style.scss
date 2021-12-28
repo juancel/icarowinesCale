@@ -26,7 +26,7 @@ html {
 /***** Estilos por tipo de elemento *****/
 
 body {
-    margin: 5px;
+    margin: 0.5rem;
     background-color: $verdeAgua;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -124,28 +124,8 @@ article {
     display: inline-block;
 }
 
-.destacados {
-    color: #9cb4b3;
-    background-color: #817c76;
-}
 
-.destacados {
-    h2 {
-        text-transform: uppercase;
-        font-size: 2em;
-    }
-}
 
-.destacados {
-    span {
-        color: $coral;
-    }
-}
-
-.aside {
-    text-transform: uppercase;
-    text-align: center;
-}
 
 .novedades {
     align-items: center;
@@ -154,11 +134,6 @@ article {
 .bodegas {
 
     list-style-type: none;
-}
-
-.logoRedes {
-    width: 20px;
-    height: 20px;
 }
 
 .listStyleType {
@@ -194,7 +169,7 @@ article {
     font-size: 4em;
     font-weight: 900;
     line-height: 200%;
-    letter-spacing: 5px;
+    letter-spacing: 0.5rem;
     color: #edece8;
     text-shadow: 2px 2px 5px rgb(245, 240, 241);
 
@@ -273,14 +248,14 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr 5fr 5fr;
-    grid-row-gap: 20px;
+    grid-row-gap: 2rem;
 
 }
 
 .clientes {
     border-style: solid;
     border-color: #fff;
-    border-width: 1px;
+    border-width: 0.1rem;
 }
 
 #video2 {
