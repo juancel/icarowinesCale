@@ -16,7 +16,7 @@ $redes:(
 footer {
     height: 100px;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(87, 35, 67) 60%, rgb(224, 212, 224));
+    background-image: linear-gradient(to bottom right, $coral 60%, rgb(224, 212, 224));
     position: relative;
 
     h5 {

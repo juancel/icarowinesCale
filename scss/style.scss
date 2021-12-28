@@ -1,7 +1,4 @@
-@import "aside";
-@import "footer";
-@import "header";
-@import "main";
+
 
 /***** Paleta de Colores *****/
 $verdeAgua: #415d61;
@@ -20,6 +17,11 @@ $grisClaro:#edece8b9;
 html {
     font-size: 62, 5%;
 }
+
+@import "aside";
+@import "footer";
+@import "header";
+@import "main";
 
 /***** Estilos por tipo de elemento *****/
 
@@ -320,7 +322,6 @@ nav {
 
 @media only screen and (min-width: 600px) {
 
-
     .animacion {
         animation-name: desfile;
         animation-iteration-count: infinite;
@@ -328,6 +329,4 @@ nav {
         animation-duration: 9s;
     }
 }
-
-
 /* -----------------FIN MEDIA QUERIES---------------- */

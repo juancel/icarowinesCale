@@ -1,3 +1,16 @@
+/***** Paleta de Colores *****/
+/***** Reseteo *****/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
 #asideClientes h3 {
   font-weight: bold;
   font-size: 3em;
@@ -15,8 +28,8 @@
 footer {
   height: 100px;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(60%, #572343), to(#e0d4e0));
-  background-image: linear-gradient(to bottom right, #572343 60%, #e0d4e0);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(60%, #dc785e), to(#e0d4e0));
+  background-image: linear-gradient(to bottom right, #dc785e 60%, #e0d4e0);
   position: relative;
 }
 
@@ -132,19 +145,6 @@ header ul li a {
 
 .promosMes span {
   color: #dc785e;
-}
-
-/***** Paleta de Colores *****/
-/***** Reseteo *****/
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  font-size: 62, 5%;
 }
 
 /***** Estilos por tipo de elemento *****/
